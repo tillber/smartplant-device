@@ -1,0 +1,23 @@
+{
+	"name": "IBM-Device",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js",
+		"test": "jest"
+	},
+	"dependencies": {
+		"blessed": "0.1.81",
+		"blessed-contrib": "^4.8.14",
+		"cfenv": "^1.2.2",
+		"ibmiotf": "^0.2.41",
+		"systeminformation": "*"
+	},
+	"repository": {},
+	"engines": {
+		"node": "11.5.0"
+	},
+	"devDependencies": {
+		"jest": "^24.7.1"
+	}
+}
